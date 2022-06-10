@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val button: Button = findViewById(R.id.button)
         button.setOnClickListener {
+            // val text = makeAnHTTPRequest
             Toast.makeText(this, "TEST", Toast.LENGTH_SHORT).show()
         }
     }
